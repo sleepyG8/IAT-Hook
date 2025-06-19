@@ -1,5 +1,8 @@
 #include <windows.h>
 
+//Sleepys Hook 
+//This is meant to be injected as a DLL
+
 FARPROC funcAddr;
 
 FARPROC myHook() {
